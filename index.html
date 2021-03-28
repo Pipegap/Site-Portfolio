@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Alexey - portfolio</title>
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <a href="" class="home">Home</a>
+            <a data-fancybox data-src="#hidden-content" href="javascript:;" class="about_me menu">About me</a>
+            <a data-fancybox data-src="#skills" href="#skill" class="skills menu">Skills</a>
+            <a href="#portfolio" class="portfolio menu">Portfolio</a>
+            <a data-fancybox data-src="#conts" href="javascript:;" href="" class="contacts menu">Contacts</a>
+        </header>
+        <div class="hidden" id="hidden-content">
+            <h2>Hello</h2>
+            <p>My name is Alexey, and this is my portfolio. I'm 15 years old.<br>I'm into WEB-developing. This site is created to you can see my works!<br>If you need layout some site, I can do that<br> My number: 89158385753<br> <br>Tap here to know more about me <a href="#head" class="scrollLinks" id="forRemove">TAP</a></p>
+        </div>
+        <div style="display: none;" id="skills">
+            <h1>FRONT-END</h1>
+            <h2>My skills:</h2>
+            <p><ul>
+            <div class="all_html">
+                <li>HTML</li>
+                <img src="./img/html.png" class="pin_html pin">
+            </div>
+            <div class="all_css">
+                <li>CSS</li>
+                <img src="./img/css.png" class="pin_css pin">
+            </div>
+            <div class="all_jQuery">    
+                <li>JavaScript(jQuery)</li>
+                <img src="./img/jQuery.png" class="pin_jQuery pin">
+            </div>
+            <div class="all_python">   
+                <li>Python</li>
+                <img src="./img/python.png" class="pin_python pin">
+            </div>
+            <div class="all_layout">    
+                <li>Layouting</li>
+                <img src="./img/grid-layout.png" class="pin_layout pin">
+            </div>    
+            </ul></p>
+            <div style="display: none;" id="conts">
+                <h2>Contacts:</h2>
+                <a href="https://vk.com/id291161307" class="conts">VK: https://vk.com/id291161307</a><br>
+                <a href="https://www.instagram.com/alexseishuykin/" class="conts">Instagram: https://www.instagram.com/alexseishuykin/</a>
+            </div>
+        </div>
+        <hr class="line">
+        <section class="content">
+            <b><h1 class="name">Alexey<br>Shuykin</h1></b>
+            <span class="who_i_am">WEB|developer<br>15 years old, Ivanovo</span>
+        </section>
+        <section class="my_phot">
+            <img src="./img/MEN.png" class="my_photo">
+            <img src="./img/less_photo.png" class="less_photo">
+        </section>
+        <section class="second_page">
+            <div class="all_content">
+                <h2 class="head" id="head">About me</h2>
+                <div class="text_content">
+                    <span class="info">Hi, I'm Alex - WEB|developer from Ivanovo.<br> I'm interested in WEB-developing and everything connected with it.</span><br><br><br>
+                    <span class="info">I learn a lot of what is connected<br>with FRONT-END developing.</span><br><br><br>
+                    <span class="info">I'm ready to work in your company<br>with wonderful people.</span>
+                </div>
+            </div>
+        </section>
+        <section class="third_page" id="skill">
+            <header class="head_three_text">
+                <b><h1>Skills</h1></b>
+                <div class="where_work">
+                    <span>I work in such programs as</span>
+                </div>    
+            </header>
+            <div class="programms">
+                <div class="photoshop">
+                    <img src="./img/html_page.png" alt="Логотип фотошопа">
+                    <span class="name-prog"><br>HTML<br>5</span><br>
+                    <img src="./img/stars.png" alt="" class="stars">
+                </div>
+                <div class="photoshop">
+                    <img src="./img/CSS_page.png" alt="Логотип фотошопа">
+                    <span class="name-prog"><br>CSS<br>3</span><br>
+                    <img src="./img/stars_2.png" alt="" class="stars">
+                </div>
+                <div class="photoshop last_prog">
+                    <img src="./img/JS_page.png" alt="Логотип фотошопа">
+                    <span class="name-prog"><br>JavaScript<br>whitout jQuery</span><br>
+                    <img src="./img/stars.png" alt="" class="stars">
+                </div>
+                <div class="photoshop last_prog">
+                    <img src="./img/Visual_page.png" alt="Логотип фотошопа" class="figma">
+                    <span class="name-prog"><br>Visual Studio<br>Code</span><br>
+                    <img src="./img/stars.png" alt="" class="stars last">
+                </div>
+            </div>    
+        </section>
+        <section class="fourth_page"> 
+            <div class="head">
+                <h1>Portfolio</h1>
+            </div>
+            <div class="my_phot">
+                <img src="./img/MK.png" alt="Показ первой работы в портфолио" class="project_photo">
+                <a href="https://pipegap.github.io/mortal-kombat/" target="_blank" class="project_about">WEB-site to a new film Mortal Kombat</a>
+            </div>
+            <div class="my_phot">
+                <img src="./img/IT-site.png" alt="Показ второй работы в портофолио" class="project_photo">
+                <a href="" class="project_about">WEB-site for IT company</a>
+            </div>
+            <div class="my_phot">
+                <img src="./img/Portfolio_ME.png" alt="Показ третьей работы в портофолио" class="project_photo">
+                <a href="" class="project_about">WEB-site of my portfolio</a>
+            </div>
+        </section>
+        <section class="last_page">
+            <div class="head">
+                <h1>Contacts</h1>
+                <div class="where_work">
+                    <span>Want to know more or just chat?<br>You are welcome!</span>
+                </div>
+            </div>
+            <div class="button_contacts">
+                <button href="#" class="send_message">Send message</button>
+            </div>
+            <div class="icons">
+                <a href="https://vk.com/id291161307" target="_blank">
+                    <img src="./img/vk.png" alt="" class="for_width">
+                </a>
+                <a href="https://www.instagram.com/alexseishuykin/" target="_blank">
+                    <img src="./img/instagram.png" alt="" class="for_width">
+                </a>
+            </div>
+            <div class="finally_last_words">
+                <span>Like me on Instagram, VK</span>
+            </div>
+        </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="./javascript/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,301 @@
+* {
+  box-sizing: border-box;   
+}
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#conts{
+    background-color: black;
+    color: white;
+}
+
+.conts{
+    color:white;
+}
+
+.header{
+    max-width:1053.6px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px;
+}
+.menu{
+    color: #828282;
+    font-size: 18px;
+}
+.home{
+    color: black;
+    font-size: 18px;
+}
+.line{
+    position: relative;
+    max-width: 940.6px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: -20px;
+    
+}
+.content{
+    max-width: 940.6px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    font-size: 47.34px;
+    color: #070707;
+}
+.who_i_am{
+    font-size: 18px;
+    color:#070707;
+    line-height: 21,83px;
+}
+.my_photo{
+    max-width:943.6px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.all_html{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.all_css{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.all_jQuery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.all_python{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.all_layout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pin{
+    width: 30px;
+}
+.less_photo{
+    display: none;
+}
+@media(max-width:555px){ 
+    .header{
+        display: none;
+    }
+}
+@media(max-width:460px){
+    .who_i_am{
+        position: relative;
+        left: -15px;
+    }
+    .my_photo{
+        display: none;
+    }
+    .less_photo{
+        display: flex;
+        position: relative;
+        left: 65px;
+        top: 25px;
+    }
+    .last_prog{
+        position: relative;
+        top: 104px;
+        right: 380px;
+    }
+    .photoshop{
+        position: relative;
+        right: 45px;
+        bottom: 129px;
+    }
+}
+@media(max-width:380px){
+    .name{
+        position: relative;
+        left: 56px;
+        text-align: center;
+    }
+    .less_photo{
+        position: relative;
+        left: 20px;
+    }
+    .who_i_am{
+        text-align: center;
+        position: relative;
+        left: -112px;
+        top: 118px;
+    }
+    .all_content{
+        position: relative;
+        bottom: 72px;
+    }
+    .photoshop{
+        position: relative;
+        right: 45px;
+        bottom: 129px;
+    }
+    .last_prog{
+        position: relative;
+        top: 104px;
+        right: 380px;
+    }
+    .fourth_page{
+        height: 178vh;
+        margin-top: 395.6px;
+    }
+}
+.figma{
+    position: relative;
+    bottom: 12px;
+}
+.last{
+    position: relative;
+    top: 12px;
+}
+.second_page{
+    background-color: #F6F6F6;
+    background-size: 100%;
+    height: 68vh; 
+    margin-top: 104.6px;
+    text-align: center;
+}
+
+.my_phot{
+    padding-top: 94px;
+}
+
+.head{
+    font-size: 34px;
+    line-height: 42.09px;
+    text-align: center;
+    padding-top: 120.25px;
+}
+.info{ 
+    font-size: 18px;
+}
+.text_content{
+    margin-top: 17.69px;
+}
+.hidden{
+    display: none;
+}
+.head_three_text{
+    margin-top: 91px;
+    text-align: center;
+}
+.head_three_text h1{
+    font-size: 34px;
+    color: #070707;
+}
+
+.head_three_text span{
+    font-size: 25px;  
+}
+.where_work{
+    position: relative;
+    top: 69px;
+}
+.programms{
+    max-width:1056.6px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px;
+    position: relative;
+    top: 150px;
+}
+.photoshop{
+    text-align: center;
+}
+.name-prog{
+    position: relative;
+    top: 21px;
+    color: #828282;
+    font-size: 14px;
+}
+.stars{
+    margin-top: 45.1px;
+}
+
+.fourth_page{
+    background-color: #F6F6F6;
+    background-size: 100%;
+    height: 286vh; 
+    margin-top: 216.6px;
+    text-align: center;
+}
+.project_about{
+    position: relative;
+    top: 44.88px;
+    font-size: 18px;
+    color: black;
+}
+.project_photo{
+    max-width:943.6px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.where_work span{
+    font-size: 18px;
+}
+.button_contacts{
+    position: relative;
+    text-align: center;
+    top: 117px;
+    
+}
+.send_message{
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 28px;
+}
+.for_width{
+    width: 66px;
+}
+.icons{
+    max-width:1056.6px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 56px;
+    position: relative;
+    top: 150px;
+}
+.finally_last_words{
+    text-align: center;
+    font-size: 14px;
+    color: #828282;
+}
